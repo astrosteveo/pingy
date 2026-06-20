@@ -31,7 +31,7 @@ Getting the utility running takes less than a minute:
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com
+   git clone https://github.com/astrosteveo/pingy
    cd pingy
    ```
 
