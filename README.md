@@ -19,10 +19,10 @@ This project relies on **`uv`**, the ultra-fast Python package resolver and tool
 
 ```bash
 # macOS/Linux
-curl -LsSf https://astral.sh | sh
+curl -LsSf https://astral.sh/uv/install.sh | sh
 
 # Windows
-powershell -c "irm https://astral.sh | iex"
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 ```
 
 ## Quick Start
@@ -40,6 +40,14 @@ Getting the utility running takes less than a minute:
    ```bash
    uv run pingy
    ```
+
+## Local Development
+
+If you want to modify the source code or work on features locally, you can install the package in **editable mode**. This maps the `pingy` command-line shortcut directly to your active working directory:
+
+```bash
+uv pip install -e .
+```
 
 ## Linux Environment Troubleshooting
 
